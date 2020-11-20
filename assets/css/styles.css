@@ -1,0 +1,12 @@
+body {
+    background-image: url("https://pixabay.com/get/57e9dc464a51aa14ead98d7cce213e7d1022dfe353547849742f72d2.jpg");
+    background-position: center center;    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+  }
+  
+  navBar {
+      color: darkblue
+  }
