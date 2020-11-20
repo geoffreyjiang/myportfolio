@@ -1,17 +1,13 @@
 body {
     background-image: url("https://pixabay.com/get/57e9dc464a51aa14ead98d7cce213e7d1022dfe353547849742f72d2.jpg");
-    background-position: center center;    
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
     background-color: #464646;
   }
   
-  h2 {
+  /* h2 {
     text-align: center;
     font-weight: bolder;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-}
+} */
 
 img{
     float: left;
@@ -31,4 +27,23 @@ footer {
     background-color: grey;
     color: white;
     text-align: center;
+}
+
+.home-container {
+    min-height:100vh;
+    padding-top:5rem;
+}
+
+.home-row {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-row h1 {
+    font-size:5rem;
+}
+.home-row img {
+    width: auto;
+    height: 60vh;
 }
